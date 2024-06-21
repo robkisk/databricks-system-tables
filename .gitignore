@@ -4,3 +4,4 @@
 .env
 
 .databricks
+.vscode/settings.json

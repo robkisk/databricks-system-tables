@@ -86,7 +86,7 @@ SELECT
 FROM
     system.access.audit
 WHERE
-    user_identity.email = "robby@databricks.com"
+    user_identity.email = "<email>"
     AND service_name = "unityCatalog"
     AND action_name = "generateTemporaryTableCredential"
 GROUP BY
